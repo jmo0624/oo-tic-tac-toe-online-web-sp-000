@@ -49,5 +49,7 @@ class TicTacToe
     input = gets.strip
     if valid_move?(input)
       move(input, current_player)
+    else
+      turn
       
 end
