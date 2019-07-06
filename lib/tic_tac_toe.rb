@@ -48,5 +48,6 @@ class TicTacToe
     puts "Please enter through 1-9:"
     input = gets.strip
     if valid_move?(input)
+      move(input, current_player)
       
 end
