@@ -27,7 +27,7 @@ class TicTacToe
     @board[location.to_i - 1] = character
   end
   
-  def self.input_to_index
+  def self.input_to_index(input)
     input_to.i - 1
   end
   
