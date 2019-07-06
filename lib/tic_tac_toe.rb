@@ -27,6 +27,7 @@ class TicTacToe
     @board[location.to_i - 1] = character
   end
   
+  def self.
   def position_taken?(position)
     if @board[position] == "X" || @board[position] == "O"
       true
